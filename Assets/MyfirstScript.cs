@@ -5,9 +5,14 @@ public class MyfirstScript : MonoBehaviour
 {
     void Start()
     {
-        int myfirstVariable;
-        myfirstVariable = 5;
+        int a = 23, b = 5;
+        float f = 34.44f;
+        string s = "asdasd";
+        bool b2 = true;
 
-        Debug.Log(myfirstVariable);   }
+        var v = 123;
+
+        Debug.Log(f); // 
+    }
 
 }
